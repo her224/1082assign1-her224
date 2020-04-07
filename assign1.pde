@@ -1,6 +1,3 @@
-//soldierSpeed = ?
-//laserlength = 40?
-
 PImage sky;
 PImage soil;
 PImage groundhog;
@@ -15,7 +12,7 @@ float soldierY = floor(random(2, 6)) * blockSize;
 float soldierSpeed = 2;
 float laserX = robotX + 25;
 float laserY = robotY + 37;
-float laserSpeed = 5;
+float laserSpeed = 2;
 float laserlength = 0;
 float laserMaxlength = 40;
 float laserWidth = 10;
